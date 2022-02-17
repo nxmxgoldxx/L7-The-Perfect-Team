@@ -5,7 +5,7 @@ class App extends Component {
   state = { on: false };
   toggle = () => {
     const isOn = this.state.on;
-    this.setState({ on: !isOn });
+    this.setState;({on: !is0n});
   };
   render() {
     let wallClass = "wall off";
@@ -14,8 +14,8 @@ class App extends Component {
     }
     return (
       <div className={wallClass}>
-        <Switch />
-        <Switch />
+        <Switch toggle={this.toggle} />
+        <Switch toggle={this.toggle} />
       </div>
     );
   }
